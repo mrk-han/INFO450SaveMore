@@ -51,6 +51,6 @@ void Savings::calculateInterest()
 		interestRate = TWO_PERCENT_APR;
 	}
 	//https://www.thecalculatorsite.com/articles/finance/compound-interest-formula.php
-	accountBalance += (accountBalance*(interestRate / 12));
+	accountBalance += ((accountBalance)*(interestRate / 12));
 }
 

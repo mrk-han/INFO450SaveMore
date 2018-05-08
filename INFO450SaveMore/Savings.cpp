@@ -23,6 +23,7 @@ int Savings::depositFunds(double depositAmount)
 	{
 		return -1;
 	}
+	return 300; // return 300 if something goes crazy and account balance isn't < 0 or > 0 somehow?!?!
 }
 
 int Savings::withdrawFunds(double withdrawAmount)
@@ -38,6 +39,7 @@ int Savings::withdrawFunds(double withdrawAmount)
 		calculateInterest();
 		return 0;
 	}
+	return 300; // return 300 if something goes crazy and account balance isn't < 0 or > 0 somehow?!?!
 }
 
 void Savings::calculateInterest()

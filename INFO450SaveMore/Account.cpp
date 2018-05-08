@@ -38,6 +38,7 @@ int Account::withdrawFunds(double withdrawAmount)
 
 int Account::orderChecks()
 {
+	return 0;
 }
 
 void Account::calculateInterest()

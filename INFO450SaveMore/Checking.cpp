@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "Checking.h"
 
-Checking::Checking(int number, int balance) : Account(number, balance)
+Checking::Checking(int number, double balance) : Account(number, balance)
 {
 	interestRate = 0;
 }
